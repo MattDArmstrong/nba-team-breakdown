@@ -1,9 +1,9 @@
 import React from 'react';
-import classes from './Header.css'
+import classes from './Header.module.css'
 
 const header = () => {
     return(
-        <div className={classes.Header}>NBA Team Breakdown</div> 
+        <div className={classes.Header}>[Team Name Here]</div> 
     );
 }
 
