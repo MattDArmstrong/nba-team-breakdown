@@ -5,17 +5,20 @@ import TeamSelector from "./componenets/TeamSelector/TeamSelector";
 import MainChart from "./componenets/MainChart/MainChart";
 import AuxChart from "./componenets/AuxChart/AuxChart";
 
+
 function App() {
   return (
     <div className="App">
       <Header />
-      <div>
+      <div className='row'>
+      <div className="column-left">
         <TeamSelector />
         <MainChart />
       </div>
-      <div>
+      <div className="column-right">
       <AuxChart />
       <AuxChart />
+      </div>
       </div>
 
     </div>

@@ -1,9 +1,8 @@
 .AuxChart{
-    display: inline-block;
-    width: 20%;
-    height: 200px;
+    height: 311.5px;
+    display: flex;
     margin-top: 10px;
-    margin-left: 10px;
+    margin-left: 50px;
     padding: 15px;
     border: solid grey;
 }
